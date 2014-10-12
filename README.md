@@ -25,11 +25,11 @@ Imagine now that we have more than one kind of relationship in our app, we have 
 
 - Create a variable called `relationships` assign it to an empty object.
 - Add your `friends` data structure to the `relationships` object.
-- Inspect your object. What is it's "length"?
+- Inspect your object. What is its "length"?
 - Create a variable called `matches` and assign it to an empty array.
 - Add the `matches` array to the `relationships` object. It should look like this:
   - `relationships = { friends: ['duck', 'camel'], matches: []}`
-- Using the `relationships` object, add at at least one `username` to `matches`
+- Using the `relationships` object, add at least one `username` to `matches`
   - Hint: the matches array is now nested inside the `relationships` object!
 - Inspect your object. Is the `matches` array now populated with some lucky animal?
 - Loop through your `animals` collection, adding the `relationships` object to each animal object. Name the property `relationships`.
